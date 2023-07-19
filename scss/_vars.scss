@@ -1,0 +1,28 @@
+// FONTS
+$font-button: "Lato-Bold";
+$font-small: "Lato-Thin";
+$font-medium: "Lato-Regular";
+$font-main: "PlayfairDisplay-Regular";
+// COLORS
+$color-main: #262a3f;
+$color-orange: #f1897b;
+$color-green: #85bbb1;
+$color-grey: #e4e4e4;
+$blur-effect: linear-gradient(
+	270deg,
+	rgba(255, 255, 255, 0.5) 0%,
+	rgba(255, 255, 255, 0.244636) 24.1%,
+	rgba(255, 255, 255, 0) 47.19%
+);
+
+:root {
+	--color-font-main: #262a3f;
+	--bg-color-page: #fff;
+	--italic-color: #85bbb1;
+	--button-color: #f1897b;
+	--background-image-desktop: url(../images/-desktop/header/background-desktop.png);
+	--background-image-tablet: url(../images/-tablet/header/background-tablet.png);
+	--background-image-mobile: url(../images/-mobile/header/background-mobile.png);
+	--apostroph: url(../images/svg/apostrophe.svg);
+	--link-hover: #e54f3a;
+}

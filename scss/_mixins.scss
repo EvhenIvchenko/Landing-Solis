@@ -1,0 +1,34 @@
+@mixin flex($justufy, $aling, $gap) {
+	display: flex;
+	justify-content: $justufy;
+	align-items: $aling;
+	gap: $gap;
+}
+@mixin fontStyle($fontFam, $fontSize, $color) {
+	font-family: $fontFam;
+	font-size: $fontSize;
+	color: $color;
+}
+@mixin size($width, $heigth) {
+	width: $width;
+	height: $heigth;
+}
+@mixin positionRight($position, $vertical, $horizontal) {
+	position: $position;
+	top: $vertical;
+	right: $horizontal;
+}
+@mixin positionLeft($position, $vertical, $horizontal) {
+	position: $position;
+	top: $vertical;
+	left: $horizontal;
+}
+@mixin positionBottom($position, $vertical, $horizontal) {
+	position: $position;
+	bottom: $vertical;
+	left: $horizontal;
+}
+@mixin translate($translteX, $translateY) {
+	transform: translateX($translteX);
+	transform: translateY($translateY);
+}
